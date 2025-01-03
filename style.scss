@@ -219,6 +219,7 @@ section {
 .advantages {
   background: var(--section-2-bg);
   clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+  padding-top: 150px; /* Increased padding-top to move the heading lower */
 }
 
 .advantages-grid {
@@ -365,6 +366,10 @@ section {
 
   section {
     padding: 60px 0;
+  }
+
+  .advantages {
+    padding-top: 100px; /* Adjusted for mobile */
   }
 
   .services-grid, .advantages-grid {
