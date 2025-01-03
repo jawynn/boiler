@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ремонт бойлеров | Профессиональный сервис</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.scss">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <div class="logo">BoilerService</div>
+      <div class="contacts">
+        <a href="tel:+79001234567" class="phone">+7 (900) 123-45-67</a>
+      </div>
+    </nav>
+    <div class="hero container">
+      <h1>Профессиональный ремонт водонагревателей</h1>
+      <p>Быстрый выезд мастера • Гарантия на работы • Доступные цены</p>
+      <button class="cta-button" onclick="document.getElementById('contact-form').scrollIntoView({behavior: 'smooth'})">
+        Вызвать мастера
+      </button>
+    </div>
+  </header>
+
+  <section class="services container" data-aos="fade-up">
+    <h2>Наши услуги</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="/images/diagnostic.svg" alt="Диагностика">
+        <h3>Диагностика</h3>
+        <p>Профессиональная проверка всех систем бойлера</p>
+      </div>
+      <div class="service-card">
+        <img src="/images/repair.svg" alt="Ремонт">
+        <h3>Ремонт</h3>
+        <p>Устранение любых неисправностей</p>
+      </div>
+      <div class="service-card">
+        <img src="/images/cleaning.svg" alt="Чистка">
+        <h3>Чистка от накипи</h3>
+        <p>Профилактическая очистка бойлера</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="advantages container" data-aos="fade-up">
+    <h2>Почему выбирают нас</h2>
+    <div class="advantages-grid">
+      <div class="advantage-item">
+        <div class="advantage-icon">⚡</div>
+        <h3>Быстрый выезд</h3>
+        <p>Приезжаем в течение часа</p>
+      </div>
+      <div class="advantage-item">
+        <div class="advantage-icon">🛠️</div>
+        <h3>Опытные мастера</h3>
+        <p>Стаж более 5 лет</p>
+      </div>
+      <div class="advantage-item">
+        <div class="advantage-icon">💰</div>
+        <h3>Честные цены</h3>
+        <p>Без скрытых платежей</p>
+      </div>
+      <div class="advantage-item">
+        <div class="advantage-icon">✅</div>
+        <h3>Гарантия</h3>
+        <p>До 2 лет на работы</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="prices container" data-aos="fade-up">
+    <h2>Цены на услуги</h2>
+    <div class="price-table">
+      <div class="price-row">
+        <span>Диагностика бойлера</span>
+        <span>от 500 ₽</span>
+      </div>
+      <div class="price-row">
+        <span>Чистка от накипи</span>
+        <span>от 2000 ₽</span>
+      </div>
+      <div class="price-row">
+        <span>Замена ТЭНа</span>
+        <span>от 1500 ₽</span>
+      </div>
+      <div class="price-row">
+        <span>Замена анода</span>
+        <span>от 1000 ₽</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-form" class="contact container" data-aos="fade-up">
+    <h2>Оставить заявку</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Ваше имя" required>
+      <input type="tel" placeholder="Ваш телефон" required>
+      <textarea placeholder="Опишите проблему"></textarea>
+      <button type="submit" class="submit-button">Отправить заявку</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="logo">BoilerService</div>
+        <div class="footer-contacts">
+          <a href="tel:+79001234567">+7 (900) 123-45-67</a>
+          <p>г. Москва, ул. Примерная, д. 1</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
